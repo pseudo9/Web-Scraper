@@ -75,5 +75,4 @@ except Exception as e:
 
 df=pd.DataFrame(lst)
 df.to_csv("Scraped_Data.csv", sep=',', index=False, encoding='utf-8')   #Saving data in csv format
-send_data_mongo(df) #Saving data in MongoDB
-    
+send_data_mongo(df) #Saving data in MongoDB    
