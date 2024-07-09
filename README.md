@@ -11,4 +11,4 @@ This project is a web scraper designed to extract book information from the webs
 1. Clone the repository or download the script.
 2. Install the required Python packages using pip:
 ```bash
-pip install requests beautifulsoup4 pandas pymongo
+pip install -r "requirements.txt"
